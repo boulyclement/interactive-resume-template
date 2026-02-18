@@ -155,11 +155,15 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'Projet personnel', en: 'Personal project' },
       period: { fr: '2023 - 1 an', en: '2023 - 1 year' },
       description: {
-        fr: 'Perfectionnement avancé en développement Frontend en parallèle d\'un projet d\'auto-construction de maison.',
+        fr: 'Perfectionnement avancé en développement Frontend en parallèle d\'un projet d\'auto-construction.',
         en: 'Advanced frontend training alongside a personal house construction project.',
       },
       techs: ['React', 'Angular', 'TypeScript', 'React Native', 'CSS3'],
       details: {
+        context: {
+          fr: 'Projet personnel structurant combinant formation technique et gestion de chantier.',
+          en: 'Personal structuring project combining technical training and construction management.',
+        },
         tasks: {
           fr: [
             'Perfectionnement React, Angular et TypeScript',
@@ -171,6 +175,10 @@ export const resumeConfig: ResumeConfig = {
             'Comparative study of frontend frameworks',
             'Budget management and team coordination',
           ],
+        },
+        env: {
+          fr: 'React / Angular / TypeScript / React Native / CSS3',
+          en: 'React / Angular / TypeScript / React Native / CSS3',
         },
       },
     },
@@ -186,17 +194,25 @@ export const resumeConfig: ResumeConfig = {
       },
       techs: ['React', 'Angular', 'Vue', 'Symfony', 'Docker', 'Kubernetes', 'Google Cloud'],
       details: {
+        context: {
+          fr: 'Équipe agile de 8 personnes.',
+          en: 'Agile team of 8 people.',
+        },
         tasks: {
           fr: [
             'Développement de simulateurs web et mobile',
             'Mise en place de déploiements Docker et Kubernetes',
-            'Intégration de signature électronique (Docusign)',
+            'Intégration de signature électronique Docusign',
           ],
           en: [
             'Development of web and mobile simulators',
             'Docker and Kubernetes deployments',
-            'Integration of electronic signature solutions (Docusign)',
+            'Integration of Docusign electronic signature',
           ],
+        },
+        env: {
+          fr: 'React / Angular / Vue / Symfony / Docker / Kubernetes / Google Cloud',
+          en: 'React / Angular / Vue / Symfony / Docker / Kubernetes / Google Cloud',
         },
       },
     },
@@ -207,10 +223,32 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'CDI', en: 'Permanent contract' },
       period: { fr: 'Fév 2018 - Fév 2019', en: 'Feb 2018 - Feb 2019' },
       description: {
-        fr: 'Participation à la migration d\'une architecture monolithique vers une architecture microservices.',
-        en: 'Participation in the migration from a monolithic architecture to a microservices architecture.',
+        fr: 'Migration d\'une architecture monolithique vers une architecture microservices.',
+        en: 'Migration from a monolithic architecture to a microservices architecture.',
       },
       techs: ['Java', 'REST API', 'GitLab'],
+      details: {
+        context: {
+          fr: 'Plateforme de formation, recrutement et onboarding.',
+          en: 'Training, recruitment and onboarding platform.',
+        },
+        tasks: {
+          fr: [
+            'Développement en Java J2EE et JSF',
+            'Refactorisation vers une architecture microservices',
+            'Séparation en plusieurs applications Frontend',
+          ],
+          en: [
+            'Development with Java J2EE and JSF',
+            'Refactoring toward a microservices architecture',
+            'Separation into multiple frontend applications',
+          ],
+        },
+        env: {
+          fr: 'Java J2EE / JSF / REST API / GitLab',
+          en: 'Java J2EE / JSF / REST API / GitLab',
+        },
+      },
     },
   ],
   education: [
