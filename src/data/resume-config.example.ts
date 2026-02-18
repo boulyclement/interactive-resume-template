@@ -13,7 +13,9 @@ export const resumeConfig: ResumeConfig = {
   // ===== PERSONAL INFO =====
   personal: {
     name: 'Jane Doe',
-    photo: '/images/photo.jpg', // Place your photo in public/images/
+    // Auto-detected: just drop your photo or profile image in public/images/ (any .jpg, .png, .webp)
+    // You can also set a specific path here to override auto-detection:
+    photo: '/images/photo.jpg',
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
       en: 'Fullstack Developer',
@@ -322,13 +324,14 @@ export const resumeConfig: ResumeConfig = {
     },
   ],
 
-  // ===== PDF (optional — place your PDF in public/cv/) =====
-  // Use a string for the same PDF in all languages,
-  // or a LocalizedString for one PDF per language (button is hidden if no PDF for the current language).
-  pdf: {
-    label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
-    path: { en: '/cv/resume-en.pdf', fr: '/cv/resume-fr.pdf' },
-  },
+  // ===== PDF (optional) =====
+  // Auto-detected: just drop your PDF files in public/cv/fr/ and public/cv/en/
+  // The download button will appear automatically — no config needed!
+  // Uncomment below only if you need to override the auto-detection:
+  // pdf: {
+  //   label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
+  //   path: { en: '/cv/en/resume-en.pdf', fr: '/cv/fr/resume-fr.pdf' },
+  // },
 
   // ===== THEME =====
   theme: {

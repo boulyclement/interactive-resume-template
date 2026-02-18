@@ -23,7 +23,17 @@ Built with React, TypeScript, Tailwind CSS, and Framer Motion.
 - **SEO & ATS ready** — Full CV content visible to crawlers at build time (JSON-LD, semantic HTML fallback)
 - **3D photo flip** — Click the photo for a fun easter egg
 
-## Quick Start
+## Not a developer? No problem!
+
+You don't need to install anything. Fork this repo, use an AI to generate your config, paste it on GitHub, and your resume is live.
+
+**[📖 Step-by-step guide (EN/FR)](./docs/GUIDE.md)** — Everything explained, from creating a GitHub account to sharing your resume.
+
+**[🤖 AI Prompt](./docs/PROMPT-IA.md)** — Copy-paste this into ChatGPT or Claude with your PDF, and it generates the config file for you.
+
+---
+
+## Quick Start (for developers)
 
 ### 1. Clone the repo
 
