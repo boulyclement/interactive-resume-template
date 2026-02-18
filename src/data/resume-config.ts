@@ -12,7 +12,7 @@ export const resumeConfig: ResumeConfig = {
       fr: '7 ans d\'expérience',
       en: '7 years of experience',
     },
-    location: 'Montpellier, France',
+    location: 'Suisse',
   },
   seo: {
     title: 'Clément Bouly — Full Stack / Frontend Developer',
